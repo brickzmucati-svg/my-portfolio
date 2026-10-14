@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  background-color: #f5f7f0;
+  color: #293b2e;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: #245438;
+}
+
+nav a {
+  color: #245438;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  color: #6b966f;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #eaf0e5;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero h1 span {
+  color: #245438;
+}
+
+.hero h2 {
+  color: #55745c;
+}
+
+.hero p {
+  line-height: 1.8;
+}
+
+.button {
+  display: inline-block;
+  background-color: #245438;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+section:not(.hero) {
+  padding: 40px 10%;
+}
+
+section h2 {
+  color: #245438;
+}
+
+section p {
+  line-height: 1.8;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #dce4d8;
+}
+
+.card h3 {
+  color: #245438;
+}
+
+footer {
+  background-color: #173b29;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0 5px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #245438;
+  margin-bottom: 20px;
+}
